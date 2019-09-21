@@ -21,8 +21,7 @@ public class AtuSubject implements IWXServerSubject {
 
     @Override
     public void detachObserver(IObserver iObserver) {
-        if (observerList.contains(iObserver))
-        {
+        if (observerList.contains(iObserver)){
             observerList.remove(iObserver);
         }
     }
